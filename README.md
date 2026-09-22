@@ -1,6 +1,6 @@
 # Guide Archipelago en Français
 Bonjour, ceci est un guide pour configurer Archipelago.
-## Qu'est qu'Archipelago ?
+# Qu'est qu'Archipelago ?
 Archipelago est un mod de randomizer (concept adapté dans plein de mods de jeu, qui consite à rendre plein de choses aléatoires (objets reçus, capacités, téleportation etc...)) mais les objets sont dispersés dans d'autres jeux. Archipelago (abregé en "AP" à partir de maintenant) se joue à plusieurs (enfin, vous pouvez y jouer tout seul, mais bonne chance pour changer de jeu à chaque fois).
 
 Prenons un exemple : Joueur 1 joue à Metroid Prime, Joueur 2 joue à Super Mario Sunshine.
@@ -9,14 +9,14 @@ Dans ce cas de figure tout les objets des 2 jeux sont mélangés à l'intérieur
 
 Evidemment la Cata-Buse n'est pas un objet de Prime, donc il sera "envoyé" à votre partenaire pour que lui puisse l'utiliser, et inversement.
 
- ## Configurer Archipelago
+ # Configurer Archipelago
  AP peut paraître un peu complexe à configurer, mais on va voir ca simplement ensemble.
 
- ### Qu'est que l'on va faire dans ce guide ?
+ ## Qu'est que l'on va faire dans ce guide ?
  - Nous allons mettre en place le logiciel Archipelago (le logiciel est en Anglais)
  - Générer et héberger un multimonde (une partie avec plusieurs jeux, ou "monde" est un jeu)
 - Et enfin connecter tout ceci une fois la partie hébergée
-### Installation
+## Installation
 Pour commencer, installez Archipelago depuis ce [lien](https://github.com/ArchipelagoMW/Archipelago/releases/latest)
 
 Si vous ne savez pas quel fichier choisir, .apk est pour Android, .AppImage et .tar.gz sont pour Linux, et .exe pour Windows
@@ -29,17 +29,17 @@ Ce programme est composé de pleins de sous-programmes qui accomplissent des rô
 
 Je vais pas m'attarder sur l'auto hébergement (car l'hébergement sur archipelago.gg est gratuit est simple d'utilisation)
 
-### Géneration d'une partie
-#### Installer des jeux (facultatif, mais lisez-le quand même)
+## Géneration d'une partie
+### Installer des jeux (facultatif, mais lisez-le quand même)
 Pour faire simple, y'a des jeux pris en charge officiellement ([ici](https://archipelago.gg/games)), mais si vous aussi vous ne trouvez pas votre bonheur, soit faites une recherche Google avec le nom de votre jeu et Archipelago (ex. "Metroid Prime Archipelago"), ou allez voir du côté de [ce wiki](https://archipelago.miraheze.org/wiki/Category:Implementations) qui liste les jeux pris en charge non officiellement (oui y'en a beaucoup plus :) )
 
 Il vous faut un .apworld, en gros ce fichier sert à "apprendre" à Archipelago que votre jeu existe (il installe le client, un génerateur de fichier YAML (d'exemple, il faudra quand même le remplir, j'en parle un peu plus loin), et un patcheur de ROM si besoin)
-#### C'est quoi un YAML ??
+### C'est quoi un YAML ??
 Un fichier YAML (YAML Ain't a Markup Language, ou YAML n'est pas un langage de formatage) est utilisé pour configurer chaque monde (règles, collectibles, deathlink...)
 
 Pour les technophiles, le YAML est grosso-modo un JSON mais formatté de manière à être lu plus facilement par un humain (pour peu que l'on existe encore, merci OpenAI :/ )
 
-#### Création d'un YAML
+### Création d'un YAML
 La plupart des packs AP fournissent un YAML d'exemple, afin de remplir les paramètres vous mêmes (pour les jeux officiellement supportés, c'est par [ici](https://archipelago.gg/games), sinon ca doit sûrement se trouver quelque part dans la repo)
 <!-- Non terminée -->
 
