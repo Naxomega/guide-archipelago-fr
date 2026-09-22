@@ -30,9 +30,10 @@ Ce programme est composé de pleins de sous-programmes qui accomplissent des rô
 Je vais pas m'attarder sur l'auto hébergement (car l'hébergement sur archipelago.gg est gratuit est simple d'utilisation)
 
 ### Géneration d'une partie
-#### Installer des jeux (facultatif)
+#### Installer des jeux (facultatif, mais lisez-le quand même)
 Pour faire simple, y'a des jeux pris en charge officiellement ([ici](https://archipelago.gg/games)), mais si vous aussi vous ne trouvez pas votre bonheur, soit faites une recherche Google avec le nom de votre jeu et Archipelago (ex. "Metroid Prime Archipelago"), ou allez voir du côté de [ce wiki](https://archipelago.miraheze.org/wiki/Category:Implementations) qui liste les jeux pris en charge non officiellement (oui y'en a beaucoup plus :) )
-<!-- Non terminée -->
+
+Il vous faut un .apworld, en gros ce fichier sert à "apprendre" à Archipelago que votre jeu existe (il installe le client, un génerateur de fichier YAML (d'exemple, il faudra quand même le remplir, j'en parle un peu plus loin), et un patcheur de ROM si besoin)
 #### C'est quoi un YAML ??
 Un fichier YAML (YAML Ain't a Markup Language, ou YAML n'est pas un langage de formatage) est utilisé pour configurer chaque monde (règles, collectibles, deathlink...)
 
