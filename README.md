@@ -2,8 +2,6 @@
 Bonjour, ceci est un guide pour configurer Archipelago.
 
 Avant toute chose, si vous parlez Anglais (ou avec un traducteur), je vous recommande de jeter un oeil à la documentation officielle (ainsi qu'a celle de votre jeu si celui-ci n'est pas officiellement pris en charge), elle va dans les détails et parcours divers cas de figures alors que dans ce guide, je vais être assez géneraliste de manière à ce que l'installation d'Archipelago soit plus simple.
-> [!IMPORTANT]
-> Le guide est techniquement terminé, mais je vais prochainement tester de générer une partie (en me basant uniquement sur ce guide) pour voir si il manque des choses ou non.
 # Qu'est qu'Archipelago ?
 Archipelago est un mod de randomizer (concept adapté dans plein de mods de jeu, qui consite à rendre plein de choses aléatoires (objets reçus, capacités, téleportation etc...)) mais les objets sont dispersés dans d'autres jeux. Archipelago (abregé en "AP" à partir de maintenant) se joue à plusieurs (enfin, vous pouvez y jouer tout seul, mais bonne chance pour changer de jeu à chaque fois).
 
